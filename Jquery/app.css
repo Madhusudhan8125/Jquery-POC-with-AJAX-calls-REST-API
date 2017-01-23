@@ -1,0 +1,93 @@
+body{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin-left: 25%;
+}
+li{
+	text-align: center;
+}
+ul.dropdown li{
+	font-weight: bold;
+	float: left; 
+	zoom: 1;
+	background: grey;
+	border-radius: 5px;
+}
+ul.dropdown a:hover{
+	background-color: black;
+	color: white;
+}
+ul.dropdown a:active{
+	white-space: nowrap;
+	color: white;
+}
+ul.dropdown li a{
+	/*display: block;*/
+	padding: 4px 8px;
+	/*margin-right: auto;*/
+	color: black;
+}
+ul.dropdown li:last-child a{
+	border-right: none;
+	}
+
+ul.dropdown li:hover{
+	color: white;
+	
+}
+ul.dropdown li.hover a{
+	color: black;
+}
+
+ul.sub_menu{
+
+    position: relative;
+	padding: 0px 30px 0px 0px;
+	white-space: nowrap;
+	
+	
+}
+ul.sub_menu li{
+	font-weight: bold;
+    float: none;
+	zoom: 1;
+	background: grey;
+	border-radius: 5px;
+}
+ul.sub_menu a:hover{
+	color: white;
+}
+ul.sub_menu a:active{
+	color: blue;
+}
+ul.sub_menu li a{
+	padding: 4px 8px;
+	color: black;
+}
+ul.sub_menu li:last-child a{
+	border-right: none;
+	}
+
+ul.sub_menu li:hover{
+	background: black;
+	color: white;
+	
+}
+ul.sub_menu li.hover a{
+	color: black;
+}
+.accordian{
+	width: 500px;
+	margin: 50px auto;
+	height: 400px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
